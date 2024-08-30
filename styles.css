@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    width: 100%;
+    height: 80vh;
+    
+
+}
+
+body{
+    background: #01295e;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+button{
+    background: #40bb15;
+    border: none;
+    padding: 20px;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    width: 185px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.btn-voltar{
+    background: gray;
+    cursor: pointer;
+}
+
+.btn-one{
+    background: #50482d;
+    width: 250px;
+    display: block;
+    margin: 0 auto;
+}
+
+button:hover{
+    opacity: 0.6;
+}
+
+p{
+    color: #ffffff;
+    font-size: 20px;
+    margin: 20px;
+}
+
+form{
+    
+    background: #ffffff;
+    border: 1px solid rgb(100, 99, 99);
+    border-radius: 10px;
+    padding: 20px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+}
+
+input{
+    width: 100%;
+    display: block;
+    background: rgb(248, 241, 241);
+    border-radius: 5px;
+    height: 30px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+textarea{
+    display: block;
+    padding-left: 10px;
+    height: 175px;
+    width: 100%;
+    background: rgb(248, 241, 241);
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
